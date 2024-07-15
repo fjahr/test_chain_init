@@ -2,6 +2,8 @@
 
 This project includes tools to embed interesting scripts and transactions into a new bitcoin testnet chain. When such transactions are embedded in a chain early and are then protected by a checkpoint, this forces all software that interacts with such a chain to parse and validate these transactions. This means it is a test vector that is very easy to implement for any project.
 
+The project should make it easy to repeat this exercise for the launch overy new test chain in the bitcoin network.
+
 The project seeks to utilize the functional test framework of Bitcoin Core where ever possible and follows ideas of projects like the [Optech Taproot Workshop](https://github.com/bitcoinops/taproot-workshop). This should make it easier to maintain the project and it also means anyone who has contributed to the functional test framework previously should also be in the position to contribute here.
 
 ## Ideas for data sources
