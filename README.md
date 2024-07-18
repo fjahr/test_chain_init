@@ -60,3 +60,7 @@ The project seeks to utilize the functional test framework of Bitcoin Core where
 14:29 <fjahr> #endmeeting
 ```
 </details>
+
+## Setup
+
+Please note that you will currently need a bitcoin node built with the [Testnet4 PR](https://github.com/bitcoin/bitcoin/pull/29775).
