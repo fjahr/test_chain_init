@@ -427,6 +427,8 @@ def write_config(config_path, *, n, chain, extra_config="", disable_autoconnect=
         f.write("unsafesqlitesync=1\n")
         if disable_autoconnect:
             f.write("connect=0\n")
+            # TEST_CHAIN_INIT
+            f.write("networkactive=0\n")
         f.write(extra_config)
 
 
